@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/anteriorM"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="60dp"
+        app:srcCompat="@drawable/ic_baseline_skip_previous_24" />
+
+    <ImageView
+        android:id="@+id/proximoM"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="280dp"
+        app:srcCompat="@drawable/skipproximo" />
+
+    <ImageView
+        android:id="@+id/Play"
+        android:onClick="play"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="170dp"
+        app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+    <ImageView
+        android:id="@+id/imageMsic"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+</FrameLayout>
